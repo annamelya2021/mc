@@ -1,0 +1,67 @@
+.portfolio {
+  padding: 60px 0;
+}
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+/* отступ к карточкам и горизонтальное расположение flex */
+.portfolio__filters-list {
+  display: flex;
+  flex-wrap: wrap;
+  // margin-top: 15px;
+  // margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
+
+/* отступы между кнопками кроме последнего */
+.portfolio__filters-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* кнопки фильтрации фортфолио */
+.portfolio__filters-button {
+  height: 38px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin-bottom: 15px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: $secondary-bgcolor;
+
+  transition: background-color $duration $timing-function,
+    color $duration $timing-function, box-shadow $duration $timing-function;
+  /* ховер кнопок фильтрации фортфолио  */
+  &:hover,
+  &:focus {
+    background-color: $acsent-color;
+    color: $background-body-color;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+
+  /* подсвечивание кнопки фильтрации фортфолио синим */
+  &--link-current {
+    color: $background-body-color;
+    background-color: $acsent-color;
+  }
+}

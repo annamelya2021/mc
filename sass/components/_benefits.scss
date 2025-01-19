@@ -1,0 +1,72 @@
+.benefit__thumb {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: $secondary-bgcolor;
+}
+
+/* Заголовки преимуществ */
+.benefits__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+/* описание преимуществ */
+.benefits__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* Наши преимущества список ul*/
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  .benefits__item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+
+/* Задаем боковую геометрию лишкам */
+// .benefits__item {
+//   flex-basis: calc(100% / 4 - 30px);
+//   margin-top: 30px;
+//   margin-left: 30px;
+// }
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .benefits__item {
+    flex-basis: calc(100% / 4 - 30px);
+    // margin-top: 30px;
+    // margin-left: 30px;
+  }
+}

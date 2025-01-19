@@ -1,0 +1,16 @@
+@import "./utils/variables";
+@import "./base/common";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/mobile_menu";
+// студия
+@import "./components/hero";
+@import "./components/_modal";
+@import "./components/_hero-form";
+@import "./components/benefits";
+@import "./components/working-place";
+@import "./components/_team";
+@import "./components/clients";
+// портфолио
+@import "./components/portfolio_filters";
+@import "./components/_portfolio_works";
