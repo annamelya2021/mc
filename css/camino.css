@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 1199px) {
+  .workingplace {
+    display: none;
+  }
+}
+.workingplace {
+  padding-bottom: 94px;
+}
+
+/* заголовок секции чем мы занимаемся */
+.workingplace__title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* список ul workingplace */
+.workingplace__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.workingplace__item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 30px * 3) / 3);
+}
+
+/* поциционирование  */
+
+.workingplace__thumb {
+  position: relative;
+  height: 294px;
+}
+
+.workingplace__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.workingplace__overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+

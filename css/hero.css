@@ -1,0 +1,21 @@
+ .hero {
+    margin: 0 auto;
+    min-height: 360px;
+    padding: 118px 0;
+    text-align: center;
+    background-image: 
+      url(../img/grande.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .hero__title{
+   text-align: center;
+   color: rgb(60, 60, 61);
+   font-size: 24px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }

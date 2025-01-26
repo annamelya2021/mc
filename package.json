@@ -1,0 +1,13 @@
+{
+  "name": "mc",
+  "version": "1.0.0",
+  "description": "",
+"main": "index.html",
+ "scripts": {
+  "dev": "sass --watch src/scss:dist/css",
+  "build": "sass src/scss:dist/css --style compressed"
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

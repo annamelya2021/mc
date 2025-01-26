@@ -56,79 +56,79 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/hero480x2.jpg);
-  }
-}
+// @media screen and (min-device-pixel-ratio: 2),
+//   screen and (min-resolution: 192dpi),
+//   screen and (min-resolution: 2dppx) {
+//   .hero {
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//       ),
+//       url(../img/hero480x2.jpg);
+//   }
+// }
 
-@media screen and (min-width: 480px) {
-  .hero {
-    max-width: 767px;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/hero768.jpg);
-  }
+// @media screen and (min-width: 480px) {
+//   .hero {
+//     max-width: 767px;
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//       ),
+//       url(../img/hero768.jpg);
+//   }
 
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
-        url(../img/hero768x2.jpg);
-    }
-  }
-}
+//   @media screen and (min-device-pixel-ratio: 2),
+//     screen and (min-resolution: 192dpi),
+//     screen and (min-resolution: 2dppx) {
+//     .hero {
+//       background-image: linear-gradient(
+//           to right,
+//           rgba(47, 48, 58, 0.4),
+//           rgba(47, 48, 58, 0.4)
+//         ),
+//         url(../img/hero768x2.jpg);
+//     }
+//   }
+// }
 
-@media screen and (min-width: 768px) {
-  .hero {
-    max-width: 1600px;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/hero1600.jpg);
-  }
+// @media screen and (min-width: 768px) {
+//   .hero {
+//     max-width: 1600px;
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//       ),
+//       url(../img/hero1600.jpg);
+//   }
 
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
-        url(../img/hero1600x2.jpg);
-    }
-  }
-}
+//   @media screen and (min-device-pixel-ratio: 2),
+//     screen and (min-resolution: 192dpi),
+//     screen and (min-resolution: 2dppx) {
+//     .hero {
+//       background-image: linear-gradient(
+//           to right,
+//           rgba(47, 48, 58, 0.4),
+//           rgba(47, 48, 58, 0.4)
+//         ),
+//         url(../img/micx2.jpg);
+//     }
+//   }
+// }
 
-@media screen and (min-width: 1200px) {
-  .hero {
-    min-height: 600px;
-  }
+// @media screen and (min-width: 1200px) {
+//   .hero {
+//     min-height: 600px;
+//   }
 
-  .hero__title {
-    font-size: 44px;
-    line-height: 1.364;
-  }
-}
+//   .hero__title {
+//     font-size: 44px;
+//     line-height: 1.364;
+//   }
+// }
 
 // .hero {
 //   padding-top: 200px;
