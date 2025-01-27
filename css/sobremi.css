@@ -1,0 +1,59 @@
+.about-me {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-me__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/* .about-me__row--reverse {
+  flex-direction: row-reverse;
+} */
+
+.about-me__image {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me__text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-me__title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #212121;
+}
+
+.about-me__text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #757575;
+  text-indent: 20px; /* Відступ для першого рядка */
+  margin-bottom: 16px; /* Відстань між абзацами */
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-me__row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me__row--reverse {
+    flex-direction: column;
+  }
+
+  .about-me__image {
+    margin: 0 0 20px 0;
+    max-width: 100%;
+  }
+}
