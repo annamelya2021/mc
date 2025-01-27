@@ -4,6 +4,9 @@
 @import url(camino.css);
 @import url(portfolio.css);
 @import url(sobremi.css);
+@import url(sobremc.css);
+@import url(filosofia.css);
+@import url(mainportfolio.css);
 
 body {
     font-family:Roboto, sans-serif;
