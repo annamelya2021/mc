@@ -3,24 +3,28 @@
   background-color: #f5f5f5;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .about-item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
-/* .about-item.reverse {
-  flex-direction: row-reverse;
-} */
+
 
 .about-text {
   flex: 1;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-size: 18px;
-  line-height: 1.8;
-  color: #333;
+  line-height: 1.6;
+  /* color: #4a4747; */
 }
 
 .about-text h2 {
@@ -51,13 +55,13 @@
 
 .about-image img {
   max-width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn {
   display: inline-block;
-  margin: 0 auto;
   padding: 10px 20px;
   background-color: #276a08;
   color: #fff;
@@ -69,4 +73,65 @@
 
 .btn:hover {
   background-color: #188c06;
+}
+
+/* Адаптивність */
+@media screen and (max-width: 1024px) {
+  .about-item {
+    flex-direction: column;
+  }
+
+  .about-item.reverse {
+    flex-direction: column;
+  }
+
+  .about-text {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about-image {
+    padding: 10px;
+  }
+
+  .about-text h2 {
+    font-size: 24px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    padding: 30px 15px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .about-text h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-section {
+    padding: 20px 10px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
 }
