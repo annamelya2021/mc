@@ -1,9 +1,5 @@
 
-@media screen and (max-width: 1199px) {
-  .workingplace {
-    display: none;
-  }
-}
+
 .workingplace {
   padding-bottom: 25px;
 }
@@ -11,8 +7,9 @@
 .workingplace__title {
   margin-top: 15px;
   margin-bottom: 15px;
-  color: #757575;;
-  font-size: 36px;
+  color: #5c9c3c;
+  font-size: 28px;
+
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;

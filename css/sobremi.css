@@ -27,10 +27,15 @@
   padding: 0 20px;
 }
 
+.soy{
+  color: #5c9c3c;
+  text-align: center;
+  font-size: 28px !important;
+}
 .about-me__title {
   font-size: 24px;
   margin-bottom: 16px;
-  color: #212121;
+
 }
 
 .about-me__text p {

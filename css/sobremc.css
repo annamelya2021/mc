@@ -2,6 +2,12 @@
   padding: 50px 20px;
   background-color: #f5f5f5;
 }
+/* img .flex{
+display: flex !important;
+}
+.flex{
+display: flex !important;
+} */
 
 .container {
   max-width: 1200px;
@@ -21,8 +27,8 @@
 .about-text {
   flex: 1;
   padding: 20px;
-  /* font-family: 'Roboto', sans-serif; */
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   line-height: 1.6;
   /* color: #4a4747; */
 }
