@@ -4,8 +4,8 @@
   "description": "",
 "main": "index.html",
  "scripts": {
-  "dev": "sass --watch src/scss:dist/css",
-  "build": "sass src/scss:dist/css --style compressed"
+  "dev": "",
+  "build": ""
  },
   "keywords": [],
   "author": "",

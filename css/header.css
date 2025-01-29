@@ -139,11 +139,26 @@
     fill: #5c9c3c;
   }
   
-  @media screen and (min-width: 768px) {
-    .header__contacts-nav-link {
-      margin-left: auto;
+@media screen and (max-width: 768px) {
+    .header__container {
+        flex-direction: column;
+
+        text-align: center;
     }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+    .header__site-nav,
+    .header__contacts-nav {
+        margin-top: 10px;
+    }
+
+     .header__contacts-nav-item:not(:last-child) {
+    margin-right: 30px;
   }
+}
   
   @media screen and (min-width: 1200px) {
     .header__contacts-nav-link {
@@ -162,7 +177,7 @@
   .header__contacts-nav-icon-email,
   .header__contacts-nav-icon-smartphone {
     margin-right: 10px;
-    fill: #5c9c3c;;
+    fill: #5c9c3c;
   }
   
  

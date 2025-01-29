@@ -10,10 +10,6 @@
   margin-bottom: 40px;
 }
 
-/* .about-me__row--reverse {
-  flex-direction: row-reverse;
-} */
-
 .about-me__image {
   flex: 1;
   max-width: 300px;
@@ -27,25 +23,46 @@
   padding: 0 20px;
 }
 
-.soy{
+.soy {
   color: #5c9c3c;
   text-align: center;
   font-size: 28px !important;
 }
+
 .about-me__title {
   font-size: 24px;
   margin-bottom: 16px;
-
 }
 
 .about-me__text p {
   font-size: 16px;
   line-height: 1.6;
   color: #757575;
-  text-indent: 20px; /* Відступ для першого рядка */
-  margin-bottom: 16px; /* Відстань між абзацами */
+  text-indent: 20px;
+  margin-bottom: 16px;
 }
 
+.about-me__image-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.about-me__overlay {
+  position: absolute;
+  bottom: 20px; /* Відступ від нижнього краю */
+  left: 50%;
+  width: 90%; /* Робимо текст в межах фото */
+  transform: translateX(-50%) translateY(25px); /* Вирівнюємо по центру та піднімаємо */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(92, 156, 60, 0.8);
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 768px) {
   .about-me__row {
@@ -60,5 +77,21 @@
   .about-me__image {
     margin: 0 0 20px 0;
     max-width: 100%;
+  }
+
+  .about-me__overlay {
+    font-size: 16px;
+    padding: 8px 14px;
+    bottom: 45px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-me__overlay {
+    font-size: 14px;
+    padding: 6px 12px;
+    bottom: 10px;
+    width: 98%;
   }
 }

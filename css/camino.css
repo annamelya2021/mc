@@ -57,3 +57,41 @@
   background-color: #5c9c3c80;
 }
 
+
+/* === ПЛАНШЕТ (768px - 1024px) === */
+@media (max-width: 1024px) {
+  .workingplace__item {
+    flex-basis: calc((100% - 30px * 2) / 2); /* Два елементи в ряд */
+  }
+
+  .workingplace__title {
+    font-size: 26px; /* Трохи зменшуємо заголовок */
+  }
+}
+
+/* === МОБІЛЬНІ ПРИСТРОЇ (до 767px) === */
+@media (max-width: 767px) {
+  .workingplace__list {
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .workingplace__item {
+    flex-basis: 100%; /* Один елемент у ряд */
+    margin-left: 0;
+  }
+
+  .workingplace__title {
+    font-size: 22px; /* Зменшуємо заголовок */
+  }
+
+  .workingplace__thumb {
+    height: auto; /* Автоматична висота */
+  }
+
+  .workingplace__overlay {
+    font-size: 12px; /* Зменшуємо розмір тексту */
+    padding: 10px;
+  }
+}
