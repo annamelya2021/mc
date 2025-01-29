@@ -14,8 +14,8 @@
 
 .gallery-item {
   flex: 1;
-  min-width: calc(50%) ;
-  max-width: calc(50%);
+  min-width: 100% ;
+  max-width: 100%;
   text-align: center;
 }
 
