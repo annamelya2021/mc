@@ -1,6 +1,6 @@
 .philosophy-section {
   padding: 60px 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .philosophy-container {
@@ -48,6 +48,7 @@
 }
 
 .philosophy-image img {
+  margin-top: 80px;
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -58,14 +59,18 @@
   .philosophy-container {
     flex-direction: column;
     text-align: center;
+    gap: 0;
   }
 
-  .philosophy-text {
-    max-width: 100%;
+.philosophy-image img {
+  margin-top: -10px;
   }
 
   .philosophy-image {
     max-width: 100%;
+  }
+  .center{
+    margin-top:10px;
   }
 }
 
