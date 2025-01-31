@@ -1,13 +1,17 @@
 .hero {
   margin: 0 auto;
-  min-height: 390px;
-  padding: 118px 20px; /* Зменшуємо внутрішні відступи для мобільних */
+  min-height: 300px;
+
   text-align: center;
+
   background-image: url(../img/grande.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 420px 220px;/* Робить картинку меншою, зберігаючи пропорції */
 }
+/* .green{
+background-color: #5c9c3c;
+} */
 
 .hero__title {
   text-align: center;
