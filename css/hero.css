@@ -1,14 +1,15 @@
 .hero {
   margin: 0 auto;
-  min-height: 300px;
-
+  min-height: 390px;
+  padding: 118px 20px; /* Зменшуємо внутрішні відступи для мобільних */
   text-align: center;
-
   background-image: url(../img/grande.png);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 420px 220px;/* Робить картинку меншою, зберігаючи пропорції */
+  background-size: cover;
 }
+
+
 /* .green{
 background-color: #5c9c3c;
 } */
@@ -34,10 +35,6 @@ background-color: #5c9c3c;
     min-height: 300px; 
   }
 
-  .hero__title {
-    font-size: 20px;
-    /* Зменшуємо розмір тексту */
-  }
 }
 
 /* Адаптація для мобільних */
@@ -46,10 +43,5 @@ background-color: #5c9c3c;
     min-height: 250px; /* Ще більше зменшуємо висоту */
    
    /* Підганяємо фон */
-  }
-
-  .hero__title {
-    font-size: 18px; /* Менший розмір тексту */
-    line-height: 1.4; /* Оптимізуємо міжрядковий інтервал */
   }
 }

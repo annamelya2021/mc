@@ -57,6 +57,30 @@
   object-fit: cover; /* Забезпечує правильне масштабування фото */
 }
 
+.individual-image, .grupo-image{
+  
+  flex: 1;
+  max-width: 450px;
+
+ 
+}
+
+.individual-image img{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover; /* Забезпечує правильне масштабування фото */
+}
+
+ .grupo-image  img{
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover; /* Забезпечує правильне масштабування фото */
+}
+
 @media (max-width: 768px) {
   .philosophy-container {
     flex-direction: column;

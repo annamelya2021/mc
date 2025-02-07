@@ -2,7 +2,7 @@
   "name": "mc",
   "version": "1.0.0",
   "description": "",
-"main": "index.html",
+"main": "inicio.html",
  "scripts": {
   "dev": "",
   "build": ""
