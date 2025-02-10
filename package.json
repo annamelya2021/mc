@@ -1,0 +1,13 @@
+{
+  "name": "mc",
+  "version": "1.0.0",
+  "description": "",
+"main": "inicio.html",
+ "scripts": {
+  "dev": "",
+  "build": ""
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
