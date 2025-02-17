@@ -1,9 +1,9 @@
 .hero {
   margin: 0 auto;
-  min-height: 390px;
-  padding: 118px 20px; /* Зменшуємо внутрішні відступи для мобільних */
+  min-height: 430px;
+  padding: 118px 20px; 
   text-align: center;
-  background-image: url(../img/grande.png);
+  background-image: url(../img/herocalidad.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
